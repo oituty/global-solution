@@ -1,0 +1,49 @@
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1.8rem 4.2rem;
+    justify-content: space-between;
+    background-color: #FEF1E1;
+    position: sticky;
+    align-items: center;
+    row-gap: 2rem;
+}
+
+.header::after {
+    content: "";
+    width: 100%;
+    position: absolute;
+    height: .5rem;
+    left: 0;
+    bottom: 0;
+    background: 
+    linear-gradient(
+      to right,
+      #1F685C 33%,
+      #CBA66F 33% 66%,
+      #1F685C  66%
+    );
+}
+
+.header-logo {
+    width: 16rem;
+    height: auto;
+}
+
+.header-nav {
+    display: flex;
+    column-gap: 5.2rem;
+    flex-wrap: wrap;
+    row-gap: 1rem;
+    justify-content: center;
+}
+
+.header-nav > a {
+    color: #4B4B4B;
+    font-size: 1.6rem;
+
+}
+
+.header-contact {
+    display: flex;
+}

@@ -1,0 +1,98 @@
+/* Styles */
+@import url('./header.css');
+@import url('./footer.css');
+
+/* Google Fonts - Barlow */
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700&display=swap');
+
+
+/* CSS Default */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+html {
+    font-size: 63.5%;
+}
+
+@media (min-width: 700px) {
+    html {
+        font-size: 1.5vw;
+    }
+}
+
+@media (min-width: 1000px) {
+    html {
+        font-size: 1vw;
+    }
+}
+
+@media (min-width: 1100px) {
+    html {
+        font-size: .7vw;
+    }
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Barlow", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+    font-size: 5.1rem;
+    line-height: 6rem;
+    font-weight: 600;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 2.0rem;
+    line-height: 2.3rem;
+}
+
+p {
+    font-weight: 300;
+    font-size: 1.4rem;
+    font-style: normal;
+    line-height: 1.6rem;
+}
+
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+    max-width: -webkit-fill-available;
+}
+
+a {
+    text-decoration-line: none;
+    font-weight: 300;
+    font-size: 1.4rem;
+    font-style: normal;
+    line-height: 1.6rem;
+}
+
+ul {
+    list-style-type: none
+}
+
+.btn {
+    padding: 1.2rem 6rem;
+    border-radius: .5rem;
+    background-color: #1F685C;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 2.3rem;
+    color: white;
+}
