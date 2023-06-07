@@ -62,7 +62,7 @@ p {
     font-weight: 300;
     font-size: 1.9rem;
     font-style: normal;
-    line-height: 2rem;
+    line-height: 2.2rem;
 }
 
 
@@ -133,7 +133,31 @@ ul {
     max-width: 55rem;
 }
 
+.section-box-full {
+    grid-column: span 6 / span 6;
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 3rem;
+    max-width: 70rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center; 
+    margin: 0 auto;
+}
+
 
 .section-title {
     color: #1F685C;
+}
+
+.section-background-fixed {
+    display: grid;
+    background-image: url("../img/background_pages.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    background-attachment: fixed;
+    height: 40rem;
 }
