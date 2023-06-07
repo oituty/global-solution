@@ -1,0 +1,53 @@
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 7rem 4.2rem;
+    justify-content: center;
+    background-color: #FEF1E1;
+    position: sticky;
+    align-items: center;
+    row-gap: 3rem;
+}
+
+.footer::before {
+    content: "";
+    width: 100%;
+    position: absolute;
+    height: .5rem;
+    left: 0;
+    top: 0;
+    background: 
+    linear-gradient(
+      to right,
+      #1F685C 33%,
+      #CBA66F 33% 66%,
+      #1F685C  66%
+    );
+}
+
+.footer-logo {
+    width: 24rem;
+    height: auto;
+}
+
+.footer-team {
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+    column-gap: 5.2rem;
+    flex-wrap: wrap;
+    row-gap: 1.6rem;
+    justify-content: center;
+
+    & > h2 {
+       color: #CBA66F;
+    }
+    & > ul {
+        color: #1F685C;
+        row-gap: 1rem;
+        display: flex;
+        flex-direction: column;
+
+     }
+}
