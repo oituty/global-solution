@@ -7,10 +7,21 @@
     justify-content: center;
     background-attachment: fixed;
 
-    & > img {
+    &>img {
         width: 40rem;
         height: auto;
         padding-top: 20rem;
         padding-bottom: 20rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    .section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content-header-landing-page>img {
+        width: 25rem;
     }
 }

@@ -1,7 +1,6 @@
 /* Styles */
 @import url('./header.css');
 @import url('./footer.css');
-@import url('./landingPage.css');
 @import url('./slider.css');
 @import url('./form.css');
 
@@ -172,4 +171,10 @@ ul {
     justify-content: center;
     background-attachment: fixed;
     height: 40rem;
+}
+
+@media (max-width: 700px) {
+    .section-box, .section-box-full {
+        padding: 3rem 1.4rem;
+    }
 }

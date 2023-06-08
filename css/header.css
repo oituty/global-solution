@@ -44,3 +44,10 @@
 .header-contact {
     display: flex;
 }
+
+@media (max-width: 700px) {
+    .header {
+        padding: 3rem 1.4rem;
+        justify-content: center;
+    }
+}
