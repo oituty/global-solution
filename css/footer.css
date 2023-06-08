@@ -17,13 +17,11 @@
     height: .5rem;
     left: 0;
     top: 0;
-    background: 
-    linear-gradient(
-      to right,
-      #1F685C 33%,
-      #CBA66F 33% 66%,
-      #1F685C  66%
-    );
+    background:
+        linear-gradient(to right,
+            #1F685C 33%,
+            #CBA66F 33% 66%,
+            #1F685C 66%);
 }
 
 .footer-logo {
@@ -40,14 +38,21 @@
     row-gap: 1.6rem;
     justify-content: center;
 
-    & > h2 {
-       color: #CBA66F;
+    &>h2 {
+        color: #CBA66F;
     }
-    & > ul {
+
+    &>ul {
         color: #1F685C;
         row-gap: 1rem;
         display: flex;
         flex-direction: column;
 
-     }
+    }
+}
+
+@media (max-width: 700px) {
+    .footer {
+        padding: 5rem 1.4rem;
+    }
 }
