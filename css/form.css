@@ -1,0 +1,50 @@
+.form-content {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 2rem;
+    padding: 0 !important;
+    width: 100%;
+}
+
+.col-span-2 {
+    grid-column: span 2 / span 2;
+}
+
+.textarea {
+    width: 100%;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.label {
+    margin-bottom: 0.5rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1.25rem;
+}
+
+.input {
+    max-width: -webkit-fill-available;
+    width: 100%;
+    resize: none;
+    overflow: hidden;
+    border-radius: 0.5rem;
+    border-width: 0.125rem;
+    border-color: #CBA66F;
+    background-color: white;
+    padding: 0.75rem 1rem;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+    letter-spacing: .0125em;
+    color: var(--body);
+}
+
+.input::placeholder {
+    font-size: 1.4rem;
+
+}

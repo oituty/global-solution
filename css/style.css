@@ -3,6 +3,7 @@
 @import url('./footer.css');
 @import url('./landingPage.css');
 @import url('./slider.css');
+@import url('./form.css');
 
 /* Google Fonts - Barlow */
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700&display=swap');
@@ -18,6 +19,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 html {
     font-size: 63.5%;
+    color: #444444;
 }
 
 @media (min-width: 700px) {
@@ -97,8 +99,8 @@ ul {
     line-height: 2.3rem;
     color: white;
     max-width: 16rem;
+    cursor: pointer;
 }
-
 
 .content-header {
     display: grid;
@@ -156,7 +158,6 @@ ul {
     align-items: center;
     margin: 0 auto;
 }
-
 
 .section-title {
     color: #1F685C;
