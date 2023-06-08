@@ -16,13 +16,11 @@
     height: .5rem;
     left: 0;
     bottom: 0;
-    background: 
-    linear-gradient(
-      to right,
-      #1F685C 33%,
-      #CBA66F 33% 66%,
-      #1F685C  66%
-    );
+    background:
+        linear-gradient(to right,
+            #1F685C 33%,
+            #CBA66F 33% 66%,
+            #1F685C 66%);
 }
 
 .header-logo {
@@ -37,7 +35,7 @@
     row-gap: 1rem;
     justify-content: center;
 
-    &  > a {
+    &>a {
         color: #4B4B4B;
         font-size: 1.6rem;
     }
